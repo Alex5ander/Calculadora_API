@@ -8,21 +8,21 @@ namespace CALCULADORA_API
 {
     public class CalculadoraAPI
     {
-        public static double somar(double a, double b) {
+        public static double Somar(double a, double b) {
             return a + b;
         }
 
-        public static double subtrair(double a, double b)
+        public static double Subtrair(double a, double b)
         {
             return a - b;
         }
 
-        public static double multiplicar(double a, double b)
+        public static double Multiplicar(double a, double b)
         {
             return a * b;
         }
 
-        public static double dividir(double a, double b)
+        public static double Dividir(double a, double b)
         {
             return a / b;
         }
