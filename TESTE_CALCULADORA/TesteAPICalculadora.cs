@@ -15,7 +15,7 @@ namespace TESTE_CALCULADORA
         public void TestarSoma()
         {
             double resultado = CalculadoraAPI.Somar(0, 5);
-            Assert.AreEqual(13, resultado);
+            Assert.AreEqual(5, resultado);
             resultado = CalculadoraAPI.Somar(4, 15);
             Assert.AreEqual(19, resultado);
         }
@@ -34,6 +34,7 @@ namespace TESTE_CALCULADORA
             Assert.AreEqual(35, resultado);
             resultado = CalculadoraAPI.Multiplicar(4, 6);
             Assert.AreEqual(24, resultado);
+            Assert.Greater(25, resultado, "Testando se o resultado é maior que 24");
         }
         [Test]
         public void TestarDivisao()
