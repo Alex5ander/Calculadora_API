@@ -31,17 +31,17 @@ namespace TESTE_CALCULADORA
         public void TestarMultiplicacao()
         {
             double resultado = CalculadoraAPI.Multiplicar(7, 5);
-            Assert.AreEqual(2, resultado);
+            Assert.AreEqual(35, resultado);
             resultado = CalculadoraAPI.Multiplicar(4, 6);
-            Assert.AreEqual(-2, resultado);
+            Assert.AreEqual(24, resultado);
         }
         [Test]
         public void TestarDivisao()
         {
-            double resultado = CalculadoraAPI.Dividir(7, 5);
+            double resultado = CalculadoraAPI.Dividir(2, 1);
             Assert.AreEqual(2, resultado);
-            resultado = CalculadoraAPI.Dividir(4, 6);
-            Assert.AreEqual(-2, resultado);
+            resultado = CalculadoraAPI.Dividir(8, 4);
+            Assert.AreEqual(2, resultado);
         }
     }
 }
