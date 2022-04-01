@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TESTE_CALCULADORA
 {
-    public class Class1
+    public class TesteAPICalculadora
     {
     }
 }
